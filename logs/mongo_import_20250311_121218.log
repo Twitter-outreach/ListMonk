@@ -1,0 +1,10 @@
+[2025-03-11 12:12:18] Starting MongoDB to ListMonk import process
+[2025-03-11 12:12:18] Extracting users from MongoDB
+Starting MongoDB to ListMonk integration at 2025-03-11 12:12:18.991662
+Found 2126 new users since last sync
+Exported 2126 users to /root/CascadeProjects/listmonk/temp/mongo_users.csv
+Conversion completed successfully. Output saved to /root/CascadeProjects/listmonk/temp/listmonk_import.csv
+MongoDB to ListMonk integration completed successfully
+[2025-03-11 12:12:19] Importing users into ListMonk
+2025/03/11 12:12:19.521534 init.go:153: error loading flags: unknown flag: --subscribers
+[2025-03-11 12:12:19] Error: Import failed

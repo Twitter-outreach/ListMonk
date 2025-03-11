@@ -1,0 +1,85 @@
+[2025-03-11 12:14:30] Starting MongoDB to ListMonk import process
+[2025-03-11 12:14:30] Extracting users from MongoDB
+Found 0 new users since last sync
+No new users found
+[2025-03-11 12:14:31] Importing users into ListMonk
+[2025-03-11 12:14:31] Authenticating with ListMonk
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Xreacher Email Blaster</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+	
+		<link rel="alternate" type="application/rss+xml" title="Mailing list archive - Xreacher Email Blaster"
+			href="https://mail.xreacher.com/archive.xml" />
+	
+
+	<link href="/public/static/style.css?v=474b7c88f5" rel="stylesheet" type="text/css" />
+	<link href="/public/custom.css?v=474b7c88f5" rel="stylesheet" type="text/css">
+	<script src="/public/custom.js?v=474b7c88f5" async defer></script>
+
+	
+		<link rel="icon" href="https://xreacher.com/favicon.ico" type="image/x-icon" />
+	
+</head>
+<body>
+    <div class="container wrap">
+		<header class="header">
+			<div class="logo">
+				<a href="https://mail.xreacher.com/subscription/form">
+					<img src="/public/static/xreacher-logo.png" alt="Xreacher Email Blaster" style="max-width: 120px; height: auto;" />
+				</a>
+				<h2 style="text-align: center; margin-top: 10px; font-size: 1.5em; color: #00AEEF;">Xreacher Emails</h2>
+			</div>
+		</header>
+
+
+<section class="login">
+	<h2>Login</h2>
+	
+	<form method="post" action="/admin/login" class="form">
+		<div>
+			<input type="hidden" name="nonce" value="H1et6CyCOBL60qn7" />
+			<input type="hidden" name="next" value="/admin" />
+			<p>
+				<label for="username">Username</label>
+				<input id="username" type="text" name="username" autofocus required minlength="3" />
+			</p>
+			<p>
+				<label for="password">Password</label>
+				<input id="password" type="password" name="password" required minlength="8" />
+			</p>
+
+			<p><span class="error">Invalid login or password</span></p>
+
+			<p class="submit"><button class="button" type="submit">Login</button></p>
+		</div>
+	</form>
+	
+
+	
+
+</section>
+
+
+	</div>
+	
+	<footer class="container">
+		&copy; <span id="current-year"></span> Xreacher. All rights reserved.
+	</footer>
+	<script>
+		document.getElementById('current-year').textContent = new Date().getFullYear();
+	</script>
+</body>
+</html>
+
+[2025-03-11 12:14:31] Uploading CSV file to ListMonk
+{"message":"404 page not found"}
+[2025-03-11 12:14:31] Import completed successfully
+[2025-03-11 12:14:31] Updating last sync timestamp
+[2025-03-11 12:14:32] MongoDB to ListMonk import process completed

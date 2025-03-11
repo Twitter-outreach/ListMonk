@@ -1,0 +1,3 @@
+# MongoDB to ListMonk integration cron job
+# Run daily at 12:30 AM EST (05:30 UTC)
+30 5 * * * root /root/CascadeProjects/listmonk/scripts/run_mongo_import.sh >> /var/log/mongo_listmonk_import.log 2>&1

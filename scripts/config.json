@@ -1,0 +1,22 @@
+{
+    "mongo_uri": "mongodb://erik:secureErikPass123@localhost:27017/?authSource=admin",
+    "mongo_db": "test",
+    "mongo_collection": "userdatas",
+    
+    "email_field": "email",
+    "name_field": "name",
+    "created_at_field": "createdAt",
+    
+    "listmonk_api_url": "https://mail.xreacher.com",
+    "listmonk_username": "admin",
+    "listmonk_password": "xreacher2023!",
+    "listmonk_list_id": 1,
+    "listmonk_list_name": "Xreacher Subscribers",
+    
+    "temp_dir": "/root/CascadeProjects/listmonk/temp",
+    "raw_csv_path": "/root/CascadeProjects/listmonk/temp/mongo_users.csv",
+    "processed_csv_path": "/root/CascadeProjects/listmonk/temp/listmonk_import.csv",
+    
+    "tracking_collection": "listmonk_sync",
+    "last_sync_key": "last_sync_timestamp"
+}

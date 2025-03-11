@@ -1,0 +1,16 @@
+[2025-03-11 12:11:26] Starting MongoDB to ListMonk import process
+[2025-03-11 12:11:26] Extracting users from MongoDB
+Starting MongoDB to ListMonk integration at 2025-03-11 12:11:27.074867
+Traceback (most recent call last):
+  File "/root/CascadeProjects/listmonk/scripts/mongo_to_listmonk.py", line 193, in <module>
+    main()
+  File "/root/CascadeProjects/listmonk/scripts/mongo_to_listmonk.py", line 188, in main
+    success = integration.run()
+  File "/root/CascadeProjects/listmonk/scripts/mongo_to_listmonk.py", line 157, in run
+    if not db:
+  File "/usr/local/lib/python3.10/dist-packages/pymongo/synchronous/database.py", line 342, in __bool__
+    raise NotImplementedError(
+NotImplementedError: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+[2025-03-11 12:11:27] Importing users into ListMonk
+2025/03/11 12:11:27.611335 init.go:153: error loading flags: unknown flag: --mode
+[2025-03-11 12:11:27] Error: Import failed
