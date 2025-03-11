@@ -4,8 +4,9 @@
       <template #brand>
         <div class="logo">
           <router-link :to="{ name: 'dashboard' }">
-            <img class="full" src="@/assets/logo.svg" alt="" />
+            <img class="full" src="@/assets/xreacher-logo.svg" alt="" />
             <img class="favicon" src="@/assets/favicon.png" alt="" />
+            <div class="logo-title">Xreacher Email Blaster</div>
           </router-link>
         </div>
       </template>

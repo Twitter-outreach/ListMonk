@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
-	<title>{{ .Data.Title }} - {{ .SiteName }}</title>
+	<title>{{ .SiteName }}</title>
 	<meta name="description" content="{{ .Data.Description }}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 
@@ -27,12 +27,9 @@
 		<header class="header">
 			<div class="logo">
 				<a href="{{ if .EnablePublicSubPage }}{{ .RootURL}}/subscription/form{{ end }}">
-				{{ if ne .LogoURL "" }}
-					<img src="{{ .LogoURL }}" alt="{{ .Data.Title }}" />
-				{{ else }}
-					<img src="/public/static/logo.svg?v={{ .AssetVersion }}" alt="{{ .Data.Title }}" />
-				{{ end }}
+					<img src="/public/static/xreacher-logo.png" alt="Xreacher Email Blaster" style="max-width: 120px; height: auto;" />
 				</a>
+				<h2 style="text-align: center; margin-top: 10px; font-size: 1.5em; color: #00AEEF;">Xreacher Emails</h2>
 			</div>
 		</header>
 {{ end }}
@@ -41,8 +38,11 @@
 	</div>
 	
 	<footer class="container">
-		{{ L.T "public.poweredBy" }} <a target="_blank" rel="noreferrer" href="https://listmonk.app">listmonk</a>
+		&copy; <span id="current-year"></span> Xreacher. All rights reserved.
 	</footer>
+	<script>
+		document.getElementById('current-year').textContent = new Date().getFullYear();
+	</script>
 </body>
 </html>
 {{ end }}

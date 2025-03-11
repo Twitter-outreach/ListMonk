@@ -1,0 +1,6 @@
+/* Custom CSS for ListMonk */
+
+/* Center the logo on all pages */
+.logo {
+    text-align: center !important;
+}

@@ -1,0 +1,19 @@
+[app]
+address = "0.0.0.0:9000"
+site_name = "Xreacher Email Blaster"
+logo_url = "https://xreacher.com/logo.svg"
+favicon_url = "https://xreacher.com/favicon.ico"
+root_url = "https://mail.xreacher.com"
+
+[db]
+host = "localhost"
+port = 5432
+user = "listmonk"
+password = "listmonk"
+database = "listmonk"
+ssl_mode = "disable"
+
+[upload]
+provider = "filesystem"
+upload_path = "/root/CascadeProjects/listmonk/uploads"
+upload_uri = "https://media.xreacher.com/emails"
