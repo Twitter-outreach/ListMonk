@@ -8,3 +8,7 @@ config.toml
 node_modules
 listmonk
 dist/*
+
+# Environment variables and sensitive data
+**/.env
+**/config.json
